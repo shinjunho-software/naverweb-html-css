@@ -1,0 +1,77 @@
+*{
+    box-sizing:border-box;
+}
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+#header-center {
+    margin: 0 auto; 
+    width:1230px;
+    
+    
+}
+
+#header-search a{
+    text-decoration:  none;
+}
+
+#header-center h1{
+width: 243px;
+height:160px;
+display:inline-block;
+background: url(./img/naver.png) -73px -2px no-repeat;
+vertical-align: middle;
+
+}
+
+#header-search h1 span{
+    display: none;
+}
+#header-search h2{
+    display:none;
+}
+
+#header-search fieldset{
+    width:586px;
+    height:56px;
+    margin-left:20px;
+    padding:12px 0 12px 10px;
+    border:2px solid #03cf5d;
+    display:inline-block;
+    vertical-align: middle;
+    position: relative;
+    
+}
+#header-search fieldset input{
+    border:none;
+    outline:none;
+    vertical-align: top;
+    width: 444px;
+    height: 24px;
+}
+#header-search fieldset button{
+    width:56px;
+    height:56px;
+    border:none;
+    padding:0;
+    background:#03cf5d;
+    position: absolute;
+    right:0;
+    top:0;
+    
+}
+#search-image{
+    width:22px;
+    height:22px;
+    background-image: url(./img/sp_main_57f073.png);
+    background-position: 468px;
+    display:inline-block;
+    background-size: 444px 439px;
+    margin:17px;
+}
